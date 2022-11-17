@@ -1,0 +1,32 @@
+/* loginOptions */
+#loginOption__Img__Welcome {
+  width: 701px;
+  height: 104px;
+
+  background-image: url("../images/custom/Welcome.png");
+  opacity: 0.5;
+}
+#loginOption__Img__OccWar {
+  margin-top: 50px;
+  margin-bottom: 59px;
+
+  width: 421px;
+  height: 190px;
+
+  background-image: url("../images/custom/Text_Logo.png");
+}
+#loginOptionMicrosoft {
+  width: 331px;
+  height: 60px;
+
+  border: none;
+  background-color: transparent;
+
+  background-image: url("../images/custom/Microsoft_Log_Btn.png");
+  cursor: pointer;
+}
+#loginOptionMicrosoft:hover {
+  filter: brightness(1.25);
+  
+  transition: filter ease-out 0.25s;
+}
