@@ -177,8 +177,41 @@
 }
 
 #langing__news {
-  width: 300px;
-  height: 630px;
+  padding-left: 25px;
+  padding-top: 20px;
+
+  width: 275px;
+  height: 610px;
 
   background-color: #0008;
+}
+#landing__newsMarker {
+  margin-bottom: 15px;
+
+  width: 84px;
+  height: 36px;
+
+  background-image: url("../images/custom/News_Marker.png");
+}
+#landing__news1 {
+  margin-bottom: 20px;
+
+  width: 250px;
+  height: 250px;
+
+  background-color: #af2d2d;
+}
+#landing__news2 {
+  margin-bottom: 20px;
+
+  width: 250px;
+  height: 150px;
+
+  background-color: #af2d2d;
+}
+#landing__news3 {
+  width: 250px;
+  height: 80px;
+
+  background-color: #af2d2d;
 }
