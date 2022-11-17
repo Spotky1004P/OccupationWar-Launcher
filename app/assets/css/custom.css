@@ -35,3 +35,68 @@
   
   transition: filter ease-out 0.25s;
 }
+
+/* landing */
+#landing__customSideBar {
+  padding-top: 50px;
+  padding-left: 24px;
+
+  width: 96px;
+  height: 580px;
+
+  background-image: url("../images/custom/Tab_Bg.png");
+}
+#landing__serverLogo {
+  margin-bottom: 39px;
+
+  width: 73px;
+  height: 73px;
+
+  background-image: url("../images/custom/Logo_Icon.png");
+}
+#langing__playTab {
+  margin-bottom: 39px;
+
+  width: 73px;
+  height: 73px;
+
+  background-image: url("../images/custom/Play_Btn.png");
+  cursor: pointer;
+}
+#langing__tabs {
+  padding-left: 15px;
+  padding-top: 25px;
+
+  width: 58px;
+  height: 218px;
+
+  background-image: url("../images/custom/Tab_Inner_Bg.png");
+}
+#langing__tabs > div:hover {
+  filter: brightness(1.5);
+}
+#settingsMediaButton {
+  margin-bottom: 25px;
+
+  width: 46px;
+  height: 46px;
+
+  background-image: url("../images/custom/Settings_Btn.png");
+  cursor: pointer;
+}
+#langing__tabsHompage {
+  margin-bottom: 25px;
+  
+  width: 46px;
+  height: 46px;
+
+  background-image: url("../images/custom/Home_Btn.png");
+  cursor: pointer;
+}
+#langing__tabsDiscord {
+  width: 46px;
+  height: 46px;
+
+  background-image: url("../images/custom/Discord_Btn.png");
+  cursor: pointer;
+}

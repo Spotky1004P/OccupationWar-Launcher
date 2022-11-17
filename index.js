@@ -223,8 +223,8 @@ let win
 function createWindow() {
 
     win = new BrowserWindow({
-        width: 1280,
-        height: 720,
+        width: 1120,
+        height: 630,
         icon: getPlatformIcon('SealCircle'),
         frame: false,
         webPreferences: {
