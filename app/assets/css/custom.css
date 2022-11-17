@@ -1,5 +1,7 @@
 /* loginOptions */
 #loginOption__Img__Welcome {
+  margin-top: 20px;
+
   width: 701px;
   height: 104px;
 
@@ -14,6 +16,9 @@
   height: 190px;
 
   background-image: url("../images/custom/Text_Logo.png");
+}
+.loginOptionButtonContainer {
+  margin-right: 50px;
 }
 #loginOptionMicrosoft {
   width: 331px;
