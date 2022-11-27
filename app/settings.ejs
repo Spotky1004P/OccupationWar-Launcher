@@ -1,22 +1,27 @@
 <div id="settingsContainer" style="display: none;">
-    <div id="settingsContainerLeft">
+    <div id="settings__tabs">
+        <div id="settingsNavDone"></div>
+        <div id="settings__inner_tabs">
+            <div class="settingsNavItem" rSc="settingsTabAccount" id="settingsNavAccount" selected></div>
+            <div class="settingsNavItem" rSc="settingsTabMinecraft" id="settingsNavMinecraft"></div>
+            <div class="settingsNavItem" rSc="settingsTabMods" id="settingsNavMods"></div>
+            <div class="settingsNavItem" rSc="settingsTabJava" id="settingsNavJava"></div>
+            <div class="settingsNavItem" rSc="settingsTabLauncher" id="settingsNavLauncher"></div>
+            <span class="settingsNavSpacer"></span>
+            <div class="settingsNavItem" rSc="settingsTabAbout" id="settingsNavAbout"></div>
+            <div class="settingsNavItem" rSc="settingsTabUpdate" id="settingsNavUpdate" style="display: none;"></div>
+        </div>
+    </div>
+    <div id="settingsContainerLeft" style="display: none;">
         <div id="settingsNavContainer">
             <div id="settingsNavHeader">
                 <span id="settingsNavHeaderText">Settings</span>
             </div>
             <div id="settingsNavItemsContainer">
                 <div id="settingsNavItemsContent">
-                    <button class="settingsNavItem" rSc="settingsTabAccount" id="settingsNavAccount" selected>Account</button>
-                    <button class="settingsNavItem" rSc="settingsTabMinecraft">Minecraft</button>
-                    <button class="settingsNavItem" rSc="settingsTabMods">Mods</button>
-                    <button class="settingsNavItem" rSc="settingsTabJava">Java</button>
-                    <button class="settingsNavItem" rSc="settingsTabLauncher">Launcher</button>
-                    <div class="settingsNavSpacer"></div>
-                    <button class="settingsNavItem" rSc="settingsTabAbout">About</button>
-                    <button class="settingsNavItem" rSc="settingsTabUpdate" id="settingsNavUpdate">Updates</button>
+                    
                     <div id="settingsNavContentBottom">
                         <div class="settingsNavDivider"></div>
-                        <button id="settingsNavDone">Done</button>
                     </div>
                 </div>
             </div>
@@ -340,40 +345,40 @@
                     <a class="settingsChangelogButton settingsAboutButton" href="#">View Release Notes on GitHub</a>
                 </div>
             </div>
-        </div>
-        <div id="settingsTabUpdate" class="settingsTab" style="display: none;">
-            <div class="settingsTabHeader">
-                <span class="settingsTabHeaderText">Launcher Updates</span>
-                <span class="settingsTabHeaderDesc">Download, install, and review updates for the launcher.</span>
-            </div>
-            <div id="settingsUpdateStatusContainer">
-                <div id="settingsUpdateStatusContent">
-                    <div id="settingsUpdateStatusHeadline">
-                        <span id="settingsUpdateTitle">You Are Running the Latest Version</span>
-                    </div>
-                    <div id="settingsUpdateVersion">
-                        <div id="settingsUpdateVersionCheck">&#10003;</div>
-                        <div id="settingsUpdateVersionDetails">
-                            <span id="settingsUpdateVersionTitle">Stable Release</span>
-                            <div id="settingsUpdateVersionLine">
-                                <span id="settingsUpdateVersionText">Version </span>
-                                <span id="settingsUpdateVersionValue">0.0.1-alpha.18</span>
+            <div id="settingsTabUpdate" class="settingsTab" style="display: block !important;">
+                <div class="settingsTabHeader">
+                    <span class="settingsTabHeaderText">Launcher Updates</span>
+                    <span class="settingsTabHeaderDesc">Download, install, and review updates for the launcher.</span>
+                </div>
+                <div id="settingsUpdateStatusContainer">
+                    <div id="settingsUpdateStatusContent">
+                        <div id="settingsUpdateStatusHeadline">
+                            <span id="settingsUpdateTitle">You Are Running the Latest Version</span>
+                        </div>
+                        <div id="settingsUpdateVersion">
+                            <div id="settingsUpdateVersionCheck">&#10003;</div>
+                            <div id="settingsUpdateVersionDetails">
+                                <span id="settingsUpdateVersionTitle">Stable Release</span>
+                                <div id="settingsUpdateVersionLine">
+                                    <span id="settingsUpdateVersionText">Version </span>
+                                    <span id="settingsUpdateVersionValue">0.0.1-alpha.18</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="settingsUpdateActionContainer">
-                        <button id="settingsUpdateActionButton">Check for Updates</button>
+                        <div id="settingsUpdateActionContainer">
+                            <button id="settingsUpdateActionButton">Check for Updates</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="settingsChangelogContainer">
-                <div class="settingsChangelogContent">
-                    <div class="settingsChangelogHeadline">
-                        <div class="settingsChangelogLabel">What's New</div>
-                        <div class="settingsChangelogTitle">Update Release Notes</div>
-                    </div>
-                    <div class="settingsChangelogText">
-                        No Release Notes
+                <div class="settingsChangelogContainer">
+                    <div class="settingsChangelogContent">
+                        <div class="settingsChangelogHeadline">
+                            <div class="settingsChangelogLabel">What's New</div>
+                            <div class="settingsChangelogTitle">Update Release Notes</div>
+                        </div>
+                        <div class="settingsChangelogText">
+                            No Release Notes
+                        </div>
                     </div>
                 </div>
             </div>

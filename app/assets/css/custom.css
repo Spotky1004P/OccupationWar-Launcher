@@ -60,6 +60,9 @@
 
   background-image: url("../images/custom/Logo_Icon.png");
 }
+
+
+
 /* #langing__playTab {
   margin-bottom: 39px;
 
@@ -236,4 +239,75 @@
   height: 80px;
 
   background-color: #af2d2d;
+}
+
+/* settings */
+#settings__tabs {
+  padding-top: 30px;
+  padding-left: 24px;
+  margin-right: 40px;
+
+  width: 96px;
+  height: 578px;
+
+  background-image: url("../images/custom/Tab_Bg.png");
+}
+#settingsNavDone {
+  margin-bottom: 25px;
+  
+  width: 73px;
+  height: 73px;
+
+  transform: rotateY(180deg) translateX(3px);
+
+  background-image: url("../images/custom/Play_Btn.png");
+  cursor: pointer;
+}
+#settings__inner_tabs {
+  padding-left: 12px;
+  padding-top: 16px;
+
+  width: 56px;
+  height: 414px;
+
+  background-image: url("../images/custom/Setting_Tab_Bg.png");
+}
+#settings__inner_tabs > div {
+  margin-bottom: 20px;
+  
+  width: 46px;
+  height: 46px;
+
+  cursor: pointer;
+}
+#settings__inner_tabs > div:hover {
+  filter: brightness(1.5);
+}
+#settingsNavAccount {
+  background-image: url("../images/custom/Profile_Btn.png");
+}
+#settingsNavMinecraft {
+  background-image: url("../images/custom/Setting_Minecraft_Btn.png");
+}
+#settingsNavMods {
+  background-image: url("../images/custom/Setting_Mods_Btn.png");
+}
+#settingsNavJava {
+  background-image: url("../images/custom/Setting_Java_Btn.png");
+}
+#settingsNavLauncher {
+  margin-bottom: 14px;
+  background-image: url("../images/custom/Setting_Launcher_Btn.png");
+}
+.settingsNavSpacer {
+  display: inline-block;
+
+  transform: translateX(-6px);
+
+  width: 100%;
+  border-bottom: solid 3px #fff;
+}
+#settingsNavAbout {
+  margin-top: 14px;
+  background-image: url("../images/custom/Setting_Others_Btn.png");
 }
