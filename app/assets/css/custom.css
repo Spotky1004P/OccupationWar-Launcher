@@ -60,15 +60,16 @@
 
   background-image: url("../images/custom/Logo_Icon.png");
 }
-#langing__playTab {
+/* #langing__playTab {
   margin-bottom: 39px;
 
   width: 73px;
   height: 73px;
 
   background-image: url("../images/custom/Play_Btn.png");
+  transform: rotateY(180deg);
   cursor: pointer;
-}
+} */
 #langing__tabs {
   padding-left: 15px;
   padding-top: 25px;
@@ -174,6 +175,27 @@
   height: 50px;
 
   background-image: url("../images/custom/Start_Btn.png");
+}
+#launch__loading_text {
+  position: absolute;
+  left: 108px;
+  top: 460px;
+
+  width: 526px;
+  height: 30px;
+
+  background-image: url("../images/custom/Loading_Text.png");
+}
+#launch_progress_label {
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+
+  width: 100% !important;
+  
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
 }
 
 #langing__news {

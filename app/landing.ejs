@@ -1,7 +1,7 @@
 <div id="landingContainer" style="display: none;">
     <div id="landing__customSideBar">
         <div id="landing__serverLogo"></div>
-        <div id="langing__playTab"></div>
+        <!-- <div id="langing__playTab"></div> -->
         <div id="langing__tabs">
             <div id="settingsMediaButton"></div>
             <div id="langing__tabsHompage" href="https://example.com/"></div>
@@ -15,7 +15,57 @@
         </div>
         <div id="langing__textLogo"></div>
         <div id="landing__rubyAxe"></div>
-        <button id="launch_button"></button>
+        <div id="landing__content">
+            <div id="landing__content__before">
+                <button id="launch_button"></button>
+            </div>
+            <div id="landing__content__after" style="display: none;">
+                <div id="launch__loading_text"></div>
+                <div id="launch_progress_label">0%</div>
+            </div>
+        </div>
+        <div class="bot_wrapper" style="display: none;">
+            <div id="launch_content">
+                <!-- <button id="launch_button">PLAY</button> -->
+                <div class="bot_divider"></div>
+                <button id="server_selection_button" ="bot_label">&#8226; No Server Selected</button>
+            </div>
+            <div id="launch_details">
+                <div id="launch_details_left">
+                    
+                    <div class="bot_divider"></div>
+                </div>
+                <div id="launch_details_right">
+                    <progress id="launch_progress" value="22" max="100"></progress>
+                    <span id="launch_details_text" class="bot_label">Please wait..</span>
+                </div>
+            </div>
+        </div>
+        <div id="content" style="display: none;">
+            <div id="server_status_wrapper">
+                <span class="bot_label" id="landingPlayerLabel">SERVER</span>
+                <span id="player_count">OFFLINE</span>
+            </div>
+            <div class="bot_divider"></div>
+            <div id="mojangStatusWrapper">
+                <span class="bot_label">MOJANG STATUS</span>
+                <span id="mojang_status_icon">&#8226;</span>
+                <div id="mojangStatusTooltip">
+                    <div id="mojangStatusTooltipTitle">Services</div>
+                    <div id="mojangStatusEssentialContainer">
+                        <!-- Essential Mojang services are populated here. -->
+                    </div>
+                    <div id="mojangStatusNEContainer">
+                        <div class="mojangStatusNEBar"></div>
+                        <div id="mojangStatusNETitle">Non&nbsp;Essential</div>
+                        <div class="mojangStatusNEBar"></div>
+                    </div>
+                    <div id="mojangStatusNonEssentialContainer">
+                        <!-- Non Essential Mojang services are populated here. -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="langing__news">
         <div id="landing__newsMarker"></div>
@@ -125,31 +175,7 @@
     <div id="lower" style="display: none;">
         <div id="left">
             <div class="bot_wrapper">
-                <div id="content">
-                    <div id="server_status_wrapper">
-                        <span class="bot_label" id="landingPlayerLabel">SERVER</span>
-                        <span id="player_count">OFFLINE</span>
-                    </div>
-                    <div class="bot_divider"></div>
-                    <div id="mojangStatusWrapper">
-                        <span class="bot_label">MOJANG STATUS</span>
-                        <span id="mojang_status_icon">&#8226;</span>
-                        <div id="mojangStatusTooltip">
-                            <div id="mojangStatusTooltipTitle">Services</div>
-                            <div id="mojangStatusEssentialContainer">
-                                <!-- Essential Mojang services are populated here. -->
-                            </div>
-                            <div id="mojangStatusNEContainer">
-                                <div class="mojangStatusNEBar"></div>
-                                <div id="mojangStatusNETitle">Non&nbsp;Essential</div>
-                                <div class="mojangStatusNEBar"></div>
-                            </div>
-                            <div id="mojangStatusNonEssentialContainer">
-                                <!-- Non Essential Mojang services are populated here. -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div id="center">
@@ -170,23 +196,7 @@
             </div>
         </div>
         <div id="right">
-            <div class="bot_wrapper">
-                <div id="launch_content">
-                    <!-- <button id="launch_button">PLAY</button> -->
-                    <div class="bot_divider"></div>
-                    <button id="server_selection_button" class="bot_label">&#8226; No Server Selected</button>
-                </div>
-                <div id="launch_details">
-                    <div id="launch_details_left">
-                        <span id="launch_progress_label">0%</span>
-                        <div class="bot_divider"></div>
-                    </div>
-                    <div id="launch_details_right">
-                        <progress id="launch_progress" value="22" max="100"></progress>
-                        <span id="launch_details_text" class="bot_label">Please wait..</span>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <div id="newsContainer">

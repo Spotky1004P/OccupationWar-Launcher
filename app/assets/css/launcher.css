@@ -966,7 +966,6 @@ body, button {
     height: 100%;
     width: 100%;
     transition: filter 0.25s ease;
-    background: rgba(0, 0, 0, 0.50);
 }
 
 #loginOptionsContent {
@@ -3400,17 +3399,6 @@ input:checked + .toggleSwitchSlider:before {
 /* Left side of launch details container, displays percentage and a divider. */
 #launch_details_left {
     display: flex;
-}
-
-/* Span which displays percentage complete. */
-#launch_progress_label {
-    font-weight: 900;
-    letter-spacing: 1px;
-    text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 20px;
-    min-width: 53.21px;
-    max-width: 53.21px;
-    text-align: right;
 }
 
 /* Right side of launch details container, displays progress bar and details. */
