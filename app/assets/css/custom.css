@@ -225,6 +225,8 @@
   height: 250px;
 
   background-color: #af2d2d;
+
+  cursor: pointer;
 }
 #landing__news2 {
   margin-bottom: 20px;
@@ -233,12 +235,16 @@
   height: 150px;
 
   background-color: #af2d2d;
+
+  cursor: pointer;
 }
 #landing__news3 {
   width: 250px;
   height: 80px;
 
   background-color: #af2d2d;
+
+  cursor: pointer;
 }
 
 /* settings */
