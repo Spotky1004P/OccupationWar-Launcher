@@ -1,0 +1,14 @@
+{
+  "news1": {
+    "image": "https://placeholder.com/250x250",
+    "link": "https://example.com/"
+  },
+  "news2": {
+    "image": "https://placeholder.com/250x150",
+    "link": "https://example.com/"
+  },
+  "news3": {
+    "image": "https://placeholder.com/250x80",
+    "link": "https://example.com/"
+  }
+}
