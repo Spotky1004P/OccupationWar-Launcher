@@ -1,7 +1,7 @@
 {
-  "name": "helioslauncher",
-  "version": "1.0.7",
-  "productName": "Helios Launcher",
+  "name": "occupationwar",
+  "version": "1.0.8",
+  "productName": "OccupationWar Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",

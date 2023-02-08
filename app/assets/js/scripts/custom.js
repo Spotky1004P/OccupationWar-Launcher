@@ -26,6 +26,7 @@ request({
 }, (err, res, body) => {
   if (!err) {
     const newsObj = JSON.parse(body);
+    console.log("News recived!", JSON.stringify(newsObj));
     for (const itemName in newsItems) {
       if (!(itemName in newsObj)) continue;
       const newsItem = newsObj[itemName];
